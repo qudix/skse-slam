@@ -5,7 +5,7 @@
 
 namespace slaModules
 {
-	uint32_t staticEffectCount = 0;
+    uint32_t staticEffectCount = 0;
     std::unordered_map<std::string, uint32_t> staticEffectIds;
 
     float GetEffectLimitOffset(uint32_t effectIdx)
